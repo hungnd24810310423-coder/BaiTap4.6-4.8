@@ -41,14 +41,34 @@ Bài4.7:
 *******Giao diện Thêm sửa xóa dòng+ thanh trạng thái + cửa sổ tile**********
 
 *********************
+
+
 <img width="663" height="295" alt="Ảnh chụp màn hình 2026-10-13 150906" src="https://github.com/user-attachments/assets/f4c02c05-c7fc-4515-80cc-5e54aacbf3a9" />
+
+
 **********************
+
+
 <img width="455" height="123" alt="Ảnh chụp màn hình 2026-10-13 150841" src="https://github.com/user-attachments/assets/aff94d01-3ba9-49d5-990d-43df7c016e02" />
+
+
 *********************
+
+
 <img width="997" height="735" alt="Ảnh chụp màn hình 2026-10-13 150752" src="https://github.com/user-attachments/assets/20d4820c-8400-4371-8008-cb051d0fba30" />
 
 
 Bài 4.8:
+
+
+
+********Giao diện thanh tiến trình********
+
+<img width="663" height="295" alt="Ảnh chụp màn hình 2026-10-13 150906" src="https://github.com/user-attachments/assets/9ba63759-8a26-4bca-924c-962a80d6e9de" />
+
+********Giao diện Nạp dữ liệu ********
+
+<img width="1030" height="698" alt="Ảnh chụp màn hình 2026-10-13 151802" src="https://github.com/user-attachments/assets/d3715118-c8e2-4cb5-9cb6-a140850325bc" />
 
 
 
