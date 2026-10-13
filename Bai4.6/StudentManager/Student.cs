@@ -1,0 +1,32 @@
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+namespace StudentManager;
+
+/// <summary>
+/// Đối tượng sinh viên. Cài đặt INotifyPropertyChanged để khi đổi thuộc tính bằng code
+/// (ví dụ gán AvatarPath) thì DataGridView và các Control tự cập nhật (binding 2 chiều).
+/// </summary>
+public class Student : INotifyPropertyChanged
+{
+    private string _studentId = string.Empty;
+    private string _fullName = string.Empty;
+    private int _age;
+    private string _gender = "Nam";
+    private string _avatarPath = string.Empty;
+
+    public event PropertyChangedEventHandler? PropertyChanged;
+
+    public string StudentId { get => _studentId; set => Set(ref _studentId, value); }
+    public string FullName { get => _fullName; set => Set(ref _fullName, value); }
+    public int Age { get => _age; set => Set(ref _age, value); }
+    public string Gender { get => _gender; set => Set(ref _gender, value); }
+    public string AvatarPath { get => _avatarPath; set => Set(ref _avatarPath, value); }
+
+    private void Set<T>(ref T field, T value, [CallerMemberName] string? name = null)
+    {
+        if (EqualityComparer<T>.Default.Equals(field, value)) return;
+        field = value;
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+    }
+}
